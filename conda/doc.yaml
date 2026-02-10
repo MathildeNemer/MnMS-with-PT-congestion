@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - notebook
+  - mkdocs
+  - pip
+  - pip:
+      - mkdocstrings
+      - mkdocs-jupyter
+      - mkdocs-gen-files
+      - mkdocstrings-python
+
+
